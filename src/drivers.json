@@ -1,0 +1,44 @@
+[
+  {
+    "ID": 1,
+    "name": "Bekzhan",
+    "truck": {
+      "ID": 1,
+      "name": "Daf",
+      "state": "ON_THE_BASE"
+    }
+  },
+  {
+    "ID": 2,
+    "name": "Altynbek",
+    "truck": {
+      "ID": 2,
+      "name": "Volvo",
+      "state": "ON_THE_BASE"
+    }
+  },
+  {
+    "ID": 3,
+    "name": "Ulanskiy",
+    "truck": {
+      "ID": 3,
+      "name": "Renault",
+      "state": "ON_THE_BASE"
+    }
+  },
+  {
+    "ID": 4,
+    "name": "Beksultan",
+    "truck": {
+      "ID": 4,
+      "name": "Man",
+      "state": "ON_THE_BASE"
+    }
+  }
+],
+      "name": "Man",
+      "driver": " ",
+      "state": "ON_THE_BASE"
+    }
+  }
+]
