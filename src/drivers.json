@@ -34,9 +34,9 @@
       "name": "Man",
       "state": "ON_THE_BASE"
     }
-  }
+  }.  
 ],
-      "name": "Man",
+      "name": "Man",      // there invalid json file
       "driver": " ",
       "state": "ON_THE_BASE"
     }
