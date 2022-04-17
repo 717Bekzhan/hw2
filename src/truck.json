@@ -19,7 +19,7 @@
     "name": "Man",
     "state": "ON_THE_BASE"
   }
-]": 4,
+]": 4,                   // this line is incorrect json
     "name": "Man",
     "driver": " ",
     "state": "ON_THE_BASE"
