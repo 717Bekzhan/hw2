@@ -78,15 +78,15 @@ public class Main {
                 System.out.println("Press 3 ot send to the Base");
                 int state = scanner.nextInt();
                 switch (state) {
-                    case 1 -> service.changeDriver(truck);
+                    case 1 -> service.changeDriver(truck); // emne uchun biroosu service menen kalgany dao menen bolup kalgan
                     case 2 -> daoTruck.road(truck);
                     case 3 -> daoTruck.repairing(truck);
                     case 4 -> daoTruck.base(truck);
                 }
-            } catch (MyException e) {
+            } catch (MyException e) { // my exceptiondu karmash uchun any yrgytysh (throw new MyException()) kerek birinchi
                 System.err.println("WE COULD NOT FIND THIS NUMBER");
             }
-            service.showService();
+            service.showService(); // methoddun atyn tushunuktuurok kylabyz
             System.out.println("=================================================");
             Map<Integer, TruckDto> mapTruck = new HashMap<>();
             Map<Integer, DriverDto> mapDriver = new HashMap<>();
