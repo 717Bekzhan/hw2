@@ -20,7 +20,7 @@ public class Service {
         this.daoTruck = daoTruck;
     }
 
-    public void changeDriver(int truck) {
+    public void changeDriver(int truck) { // bul logicany daonun ichine jazbadynyz bele
         for (Map.Entry<Integer, Truck> e : daoTruck.getDaoTruck().entrySet()) {
             if (e.getValue().getState().equals(State.ON_THE_BASE)) {
                 daoDriver.show();
